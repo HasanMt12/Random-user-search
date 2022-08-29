@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterNational Lover Searching</title>
+    <script src="https://kit.fontawesome.com/00c39e9316.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        *{
+            background-color: lightpink;;
+        }
+        .card{
+            width: 20rem;
+            background-color: aliceblue;
+            align-items: center;
+            padding: 10px;
+            margin-left: 40%;
+            
+        }
+        
+        .header{
+            color: rgb(43, 84, 85);
+            text-align: center;
+        }
+        .items , .card-title , .card-text {
+            text-align: center;
+            background-color: aliceblue;
+        }
+        .img{
+            border-radius: 10px;
+        }
+        .randomUser-container{
+            margin-left: 100px;
+        }
+        .warning-text{
+            color: blue;
+            font-weight: 500;
+        }
+        .bold-text{
+            background-color: aliceblue;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <section class="main-container">
+        <header>
+            <h1 class="header">InterNational Lover Searching <i class="fa-regular fa-heart"></i></h1>
+        </header>
+        <main>
+            <section>
+                <h3 class="header">Search your Babe.... <i class="fa-regular fa-user-hair-long"></i></h3>
+                <div id="randomUser-container">
+
+                </div> 
+            </section>
+        </main>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header items  text-success text-lg-center">
+                        <h5 class="modal-title items" id="exampleModalLabel ">Opps...</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body items">
+                        <p class="items">You can Dating with this beautiful girls , when you become a <strong class="bold-text">MERN Stack Developer</strong> . Thanks!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok, I'll try</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/apps.js"></script>
+</body>
+</html>
